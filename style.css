@@ -33,7 +33,7 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
-
+.container{ width: 100%; max-width: 1400px; }
 #results {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
@@ -62,3 +62,4 @@ button {
   color: #ccc;
   word-break: break-word;
 }
+
